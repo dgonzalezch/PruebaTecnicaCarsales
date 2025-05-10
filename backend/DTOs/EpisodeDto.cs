@@ -10,7 +10,8 @@ namespace BackPruebaTecnicaCarsales.DTOs
         public required string AirDate { get; set; }
         [JsonPropertyName("episode")]
         public required string Episode { get; set; }
-        public required List<string> Characters { get; set; }
         public required string Created { get; set; }
+        public List<CharacterDto>? CharactersDetails { get; set; }
+        public List<string>? Characters { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using BackPruebaTecnicaCarsales.Models;
 
 namespace BackPruebaTecnicaCarsales.Services
 {
-    public class EpisodeService(HttpClient httpClient, IConfiguration configuration) : IEpisodeService
+    public class EpisodeService(HttpClient httpClient, IConfiguration configuration, ICharacterService characterService) : IEpisodeService
     {
         private static readonly JsonSerializerOptions _jsonOptions = new()
         {
@@ -26,20 +26,27 @@ namespace BackPruebaTecnicaCarsales.Services
                 var content = await response.Content.ReadAsStringAsync();
                 var data = JsonSerializer.Deserialize<ApiResponse<EpisodeDto>>(content, _jsonOptions);
 
+                var episodes = data?.Results.Select(episode => new EpisodeDto
+                {
+                    Id = episode.Id,
+                    Name = episode.Name,
+                    AirDate = episode.AirDate,
+                    Episode = episode.Episode,
+                    Characters = episode.Characters ?? new List<string>(),
+                    Created = episode.Created
+                }).ToList() ?? new List<EpisodeDto>();
+
+                foreach (var episode in episodes)
+                {
+                    episode.CharactersDetails = await characterService.GetCharactersAsync(episode.Characters!);
+                }
+
                 return new PagedResponse<EpisodeDto>
                 {
                     CurrentPage = page,
                     TotalPages = data?.Info?.Pages ?? 0,
                     TotalItems = data?.Info?.Count ?? 0,
-                    Items = data?.Results.Select(episode => new EpisodeDto
-                    {
-                        Id = episode.Id,
-                        Name = episode.Name,
-                        AirDate = episode.AirDate,
-                        Episode = episode.Episode,
-                        Characters = episode.Characters ?? new List<string>(), 
-                        Created = episode.Created 
-                    }).ToList() ?? new List<EpisodeDto>()
+                    Items = episodes
                 };
             }
             catch (HttpRequestException ex)

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackPruebaTecnicaCarsales")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c20d7e805026f9af0af88b0bdb5716d8160dc0cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8769891681f9911fe8c9e353ec9c003aa484cd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackPruebaTecnicaCarsales")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackPruebaTecnicaCarsales")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

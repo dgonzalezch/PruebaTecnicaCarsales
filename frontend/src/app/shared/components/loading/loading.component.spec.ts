@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ErrorHandlerComponent } from './error-handler.component';
+import { LoadingComponent } from './loading.component';
 
-describe('ErrorHandlerComponent', () => {
-  let component: ErrorHandlerComponent;
-  let fixture: ComponentFixture<ErrorHandlerComponent>;
+describe('LoadingComponent', () => {
+  let component: LoadingComponent;
+  let fixture: ComponentFixture<LoadingComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ErrorHandlerComponent]
+      imports: [LoadingComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ErrorHandlerComponent);
+    fixture = TestBed.createComponent(LoadingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

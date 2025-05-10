@@ -10,6 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient<IEpisodeService, EpisodeService>();
+builder.Services.AddHttpClient<ICharacterService, CharacterService>();
 
 var app = builder.Build();
 

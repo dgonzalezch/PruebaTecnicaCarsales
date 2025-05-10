@@ -1,1 +1,51 @@
-<p>episode-list works!</p>
+<section class="episode-list">
+  <h1>Lista de Episodios</h1>
+
+  <!-- Buscador -->
+  <div class="search-box-container">
+    <input
+      type="text"
+      placeholder="Buscar episodio en la página actual..."
+      class="search-box"
+      [value]="search()"
+      (input)="search.set($any($event.target).value)"
+    />
+  </div>
+
+  <!-- Controles de paginación -->
+  <div class="pagination-controls">
+    <button (click)="prevPage()" [disabled]="episodeService.currentPage() === 1">Anterior</button>
+    <span>Página {{ episodeService.currentPage() }} de {{ episodeService.totalPages() }}</span>
+    <button (click)="nextPage()" [disabled]="episodeService.currentPage() === episodeService.totalPages()">Siguiente</button>
+  </div>
+
+  @if (episodeService.loading()) {
+    <app-loading [sectionName]="'episodios'" />
+  }
+
+<!-- Lista de episodios -->
+<ul class="episodes">
+  @for (episode of episodeService.episodes() | searchFilterPipe: search(); track $index) {
+    @defer (hydrate on viewport) {
+      <li class="episode-card">
+        <h2>{{ episode.name }}</h2>
+        <p><strong>Emitido el:</strong> {{ episode.air_date | date:'longDate' }}</p>
+        <p><strong>Código:</strong> {{ episode.episode }}</p>
+        <details>
+          <summary>Personajes ({{ episode.charactersDetails.length }})</summary>
+          <div class="characters-container">
+            @for (character of episode.charactersDetails; track $index) {
+              @defer (hydrate on interaction) {
+                <div class="character-card">
+                  <img [src]="character.image" [alt]="'character-'+ character.name" class="character-image">
+                  <p class="character-name">{{ character.name }}</p>
+                </div>
+              }
+            }
+          </div>
+        </details>
+      </li>
+    }
+  }
+</ul>
+</section>
