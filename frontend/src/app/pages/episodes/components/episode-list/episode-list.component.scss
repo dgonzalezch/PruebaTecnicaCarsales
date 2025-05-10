@@ -1,0 +1,85 @@
+.episode-list h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.pagination-controls button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.episodes {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.episode-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #f9f9f9;
+}
+
+.episode-card h2 {
+  margin-top: 0;
+}
+
+.episode-card details {
+  margin-top: 1rem;
+}
+
+.episode-card details summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.episode-card ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.search-box-container {
+  display: flex;
+}
+
+.characters-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.character-card {
+  width: 158px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.character-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.character-name {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1em;
+}

@@ -1,0 +1,6 @@
+@BackPruebaTecnicaCarsales_HostAddress = http://localhost:5201
+
+GET {{BackPruebaTecnicaCarsales_HostAddress}}/api/episodes
+Accept: application/json
+
+###
