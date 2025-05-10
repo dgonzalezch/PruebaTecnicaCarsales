@@ -8,6 +8,6 @@ export const routes: Routes = [
   },
   {
     path: 'episodes-list',
-    loadComponent: () => import('./pages/episodes/episode-list/episode-list.component').then(c => c.EpisodeListComponent)
+    loadComponent: () => import('./pages/episodes/components/episode-list/episode-list.component').then(c => c.EpisodeListComponent)
   }
 ];

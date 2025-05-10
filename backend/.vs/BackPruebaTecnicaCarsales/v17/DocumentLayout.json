@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|c:\\users\\dajgo\\onedrive\\escritorio\\pruebatecnicacarsales\\backend\\services\\episodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|solutionrelative:services\\episodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|c:\\users\\dajgo\\onedrive\\escritorio\\pruebatecnicacarsales\\backend\\models\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|solutionrelative:models\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|c:\\users\\dajgo\\onedrive\\escritorio\\pruebatecnicacarsales\\backend\\models\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|solutionrelative:models\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|c:\\users\\dajgo\\onedrive\\escritorio\\pruebatecnicacarsales\\backend\\models\\episode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|solutionrelative:models\\episode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|c:\\users\\dajgo\\onedrive\\escritorio\\pruebatecnicacarsales\\backend\\interfaces\\iepisodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|solutionrelative:interfaces\\iepisodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|c:\\users\\dajgo\\onedrive\\escritorio\\pruebatecnicacarsales\\backend\\dtos\\episodedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|solutionrelative:dtos\\episodedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|c:\\users\\dajgo\\onedrive\\escritorio\\pruebatecnicacarsales\\backend\\controllers\\episodescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|solutionrelative:controllers\\episodescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|c:\\users\\dajgo\\onedrive\\escritorio\\pruebatecnicacarsales\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|c:\\users\\dajgo\\onedrive\\escritorio\\pruebatecnicacarsales\\backend\\backpruebatecnicacarsales.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|solutionrelative:backpruebatecnicacarsales.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|c:\\users\\dajgo\\onedrive\\escritorio\\pruebatecnicacarsales\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|c:\\users\\dajgo\\onedrive\\escritorio\\pruebatecnicacarsales\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2A1EF94-3F06-4F7A-8374-361D76A7E4A8}|BackPruebaTecnicaCarsales.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EpisodeDto.cs",
+              "DocumentMoniker": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\DTOs\\EpisodeDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\EpisodeDto.cs",
+              "ToolTip": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\DTOs\\EpisodeDto.cs",
+              "RelativeToolTip": "DTOs\\EpisodeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T02:27:56.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PagedResponse.cs",
+              "DocumentMoniker": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\Models\\PagedResponse.cs",
+              "RelativeDocumentMoniker": "Models\\PagedResponse.cs",
+              "ToolTip": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\Models\\PagedResponse.cs",
+              "RelativeToolTip": "Models\\PagedResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T02:09:21.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BackPruebaTecnicaCarsales.http",
+              "DocumentMoniker": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\BackPruebaTecnicaCarsales.http",
+              "RelativeDocumentMoniker": "BackPruebaTecnicaCarsales.http",
+              "ToolTip": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\BackPruebaTecnicaCarsales.http",
+              "RelativeToolTip": "BackPruebaTecnicaCarsales.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-10T02:07:55.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Info.cs",
+              "DocumentMoniker": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\Models\\Info.cs",
+              "RelativeDocumentMoniker": "Models\\Info.cs",
+              "ToolTip": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\Models\\Info.cs",
+              "RelativeToolTip": "Models\\Info.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T00:56:55.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-10T00:48:34.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EpisodesController.cs",
+              "DocumentMoniker": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\Controllers\\EpisodesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EpisodesController.cs",
+              "ToolTip": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\Controllers\\EpisodesController.cs",
+              "RelativeToolTip": "Controllers\\EpisodesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T00:42:12.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEpisodeService.cs",
+              "DocumentMoniker": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\Interfaces\\IEpisodeService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IEpisodeService.cs",
+              "ToolTip": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\Interfaces\\IEpisodeService.cs",
+              "RelativeToolTip": "Interfaces\\IEpisodeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T00:40:45.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EpisodeService.cs",
+              "DocumentMoniker": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\Services\\EpisodeService.cs",
+              "RelativeDocumentMoniker": "Services\\EpisodeService.cs",
+              "ToolTip": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\Services\\EpisodeService.cs",
+              "RelativeToolTip": "Services\\EpisodeService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswCEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T00:38:59.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Episode.cs",
+              "DocumentMoniker": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\Models\\Episode.cs",
+              "RelativeDocumentMoniker": "Models\\Episode.cs",
+              "ToolTip": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\Models\\Episode.cs",
+              "RelativeToolTip": "Models\\Episode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T00:37:30.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-08T01:43:26.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dajgo\\OneDrive\\Escritorio\\PruebaTecnicaCarsales\\backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T01:33:36.066Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
